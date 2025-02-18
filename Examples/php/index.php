@@ -25,7 +25,7 @@ $posts = [
     </style>
 </head>
 <body>
-    <h1>My Blog</h1>
+    <h1>Jimmys Blog</h1>
     <?php foreach ($posts as $post): ?>
         <div class="post">
             <h2><?= htmlspecialchars($post['title']) ?></h2>
